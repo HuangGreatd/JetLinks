@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jetlinks-community</artifactId>
+        <groupId>org.jetlinks.community</groupId>
+        <version>2.2.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>network-component</module>
+        <module>gateway-component</module>
+        <module>io-component</module>
+        <module>elasticsearch-component</module>
+        <module>timeseries-component</module>
+        <module>dashboard-component</module>
+        <module>common-component</module>
+        <module>notify-component</module>
+        <module>logging-component</module>
+        <module>rule-engine-component</module>
+        <module>configure-component</module>
+        <module>things-component</module>
+        <module>script-component</module>
+        <module>protocol-component</module>
+        <module>relation-component</module>
+        <module>tdengine-component</module>
+    </modules>
+
+    <artifactId>jetlinks-components</artifactId>
+
+
+</project>
